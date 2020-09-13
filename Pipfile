@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+djoser = "*"
+pillow = "*"
+django-cleanup = "*"
+django-mssql = "*"
+django-pyodbc-azure-2019 = "*"
+
+[requires]
+python_version = "3.8"
