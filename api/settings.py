@@ -84,10 +84,10 @@ DATABASES = {
 #        'ENGINE': 'django.db.backends.sqlite3',
 #        'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': "sql_server.pyodbc",
-        'NAME': 'e_commerce',
-        'USER': 'sa',
-        'PASSWORD': 'Pass@Word1',
-        'HOST': 'CPX-43C0SXFKLRM',
+        'NAME': 'program-acad-bd',
+        'USER': 'dba-program-acad',
+        'PASSWORD': '@pr0gr4m4cad',
+        'HOST': 'program-acad-bd.database.windows.net',
         'OPTIONS': {
             "driver": "ODBC Driver 17 for SQL Server"
         }
@@ -161,5 +161,3 @@ AUTH_USER_MODEL = 'accounts.User'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = Path.joinpath(BASE_DIR, "media")
-
-
