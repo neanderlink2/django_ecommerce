@@ -33,5 +33,3 @@ jobs:
         app-name: atelie-livre
         publish-profile: ${{ secrets.AZURE_CRENDENTIALS }}
         package: ./
-        # Enter the start up command. For ex. dotnet run or dotnet run
-        startup-command: python manage.py runserver
