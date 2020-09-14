@@ -27,7 +27,7 @@ jobs:
         pip install pipenv
         pipenv install
     - name: Azure WebApp
-      uses: Azure/webapps-deploy@v2
+      uses: azure/webapps-deploy@v2
       with:
         # Name of the Azure Web App
         app-name: atelie-livre
