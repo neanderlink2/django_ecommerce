@@ -26,7 +26,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install pipenv
         pipenv install
-        pipenv shell
     - name: Azure WebApp
       uses: azure/webapps-deploy@v2
       with:
@@ -34,3 +33,4 @@ jobs:
         app-name: atelie-livre
         publish-profile: ${{ secrets.AZURE_CRENDENTIALS }}
         package: ./
+        startup-command: pipenv shell
