@@ -33,4 +33,3 @@ jobs:
         app-name: atelie-livre
         publish-profile: ${{ secrets.AZURE_CRENDENTIALS }}
         package: ./
-        startup-command: pipenv shell
